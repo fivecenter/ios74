@@ -6,7 +6,3 @@ Codename: ios
 Architectures: iphoneos-arm
 Components: main
 Description: Autolead for IOS Model 10.0.1 - 10.3.3
-MD5Sum:
- aaf41dae1fa35626439c2a472d62c761 2756 Packages
- 1d6104f355591009802411f5f01fcc0e 1149 Packages.bz2
- cea04aba398e668e17b89913d2a42966 998 Packages.gz
