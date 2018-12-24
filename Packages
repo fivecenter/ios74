@@ -1,72 +1,53 @@
-Package: com.kidsauto73.autolead
+Package: com.ioslead74.autolead
 Name: autolead
-Version: 7.3
+Version: 7.4.9
 Architecture: iphoneos-arm
-Description: KidsAuto for IOS Model 9.2.1 - 10.3.3
-Maintainer: KidsAuto <kidsauto73@gmail.com>
-Author: CuongTran <kidsauto73@gmail.com>
-Sponsor: GitHub.com <github.com>
+Description: Auto Lead iOS 10
+Depiction: http://repo.ioslead.com/ioslead74xxxx/debs/com.ioslead74.autolead/FILE/index.html
+Author: Fivecenter
 Section: System
-Filename: ./Debs/autolead73.deb
-Size: 243048
-MD5sum: 68beb347168dfdbb1df23e8805c49aae
-Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,ch.ringwald.hidsupport,com.rbt.useragentchanger,unzip,ws.hbang.repower,veency,rsync,jetslammed,socat,com.cydiageek.coysim,com.kidsauto73.hookkeyboard,com.kidsauto73.icontool,com.kidsauto73.locationfaker8910
-Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2
+Depends: com.conradkramer.open,sqlite3,kr.iolate.simulatetouch,com.autopear.installipa,zip,jp.ashikase.mousesupport,sudo,com.rbt.useragentchanger,unzip,rsync,com.ioslead74.jetslammed,socat,com.ioslead74.locationfaker8910,com.rpetrich.rocketbootstrap,mobilesubstrate
+Conflicts: jetslammed
+Icon: http://itiaprepo.com/tiz38/test.png
+Size: 2845754
+MD5sum: fa02a824eeb3576ee87efc534b842120
+Filename: ./Debs/autolead74.deb
 
-Package: com.kidsauto73.icontool
-Name: Icon Tool
-Version: 1.9-5k
+Package: com.ioslead74.jetslammed
+Name: Jetslammed
+Version: 1.2
 Architecture: iphoneos-arm
-Description: App tools menu from jiggle mode
-Maintainer: KidsAuto <kidsauto73@gmail.com>
-Author: CuongTran <kidsauto73@gmail.com>
-Sponsor: GitHub.com <github.com>
-Section: Tweaks
-Filename: ./Debs/icontool_1.9-5k.deb
-Size: 384386
-MD5sum: 8d09747284a455d359151f69c8ec9390
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), preferenceloader (>= 2.2.2)
-Conflicts: com.rpetrich.iconrenamer,vn.gsm.icontool
+Description: Library for modifying jetsam memory limits per process
+Depiction: http://repo.ioslead.com/ioslead74/debs/com.ioslead74.jetslammed/FILE/index.html
+Author: Mario Ciabarra    <https://github.com/mariociabarra/jetslammed>
+Section: Utilities
+Icon: http://itiaprepo.com/tiz38/test.png
+Size: 13076
+MD5sum: c24f2f2689358fc3601354cd23f7e5ad
+Filename: ./Debs/jetslammed74.deb
 
-Package: com.kidsauto73.hookkeyboard
-Name: hookkeyboard
-Version: 7.3
-Architecture: iphoneos-arm
-Description: Tweak for AutoLead  iOS 9.2.1 --- 10.3.3
-Maintainer: KidsAuto <kidsauto73@gmail.com>
-Author: CuongTran <kidsauto73@gmail.com>
-Sponsor: GitHub.com <github.com>
-Section: Tweaks
-Filename: ./Debs/hookkeyboard.deb
-Size: 331784
-MD5sum: 41833319de2ce7f30d268899ee598bff
-Depends: mobilesubstrate
-
-Package: com.kidsauto73.locationfaker8910
+Package: com.ioslead74.locationfaker8910
 Name: LocationFaker(8,9,10)
-Version: 2.0k
+Version: 2.0
 Architecture: iphoneos-arm
-Description: Change your location using a map Cracked
-Maintainer: KidsAuto <kidsauto73@gmail.com>
-Author: Cunstuck <kidsauto73@gmail.com>
-Sponsor: GitHub.com <github.com>
+Description: change your location using a map Cracked.....................
+Depiction: http://repo.ioslead.com/ioslead74/debs/com.ioslead74.locationfaker8910/FILE/index.html
+Author: Cunstuck    <mena@geekforex.com>
 Section: Tweaks
+Icon: http://itiaprepo.com/tiz38/test.png
+Size: 549956
+MD5sum: 54488208a0b0c31ccd4a7ea5a0cfdc2a
 Filename: ./Debs/locationfaker8910.deb
-Size: 551074
-MD5sum: 653bc05e26c0e48c74cdb119835adf0f
-Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000)
-Conflicts: org.thebigboss.locationchangerx
 
-Package: com.kidsauto73.wTabwData
-Name: wTabwData73
-Version: 0.0.2-4
+Package: com.ioslead74.xcon
+Name: xCon
+Version: 4.2
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak for KidsAuto!
-Maintainer: KidsAuto <kidsauto73@gmail.com>
-Author: kidsauto.github.io/73
-Sponsor: GitHub.com <github.com>
+Description: bypass anti-jailbreak protection..................................
+Depiction: http://repo.ioslead.com/ioslead74/debs/com.ioslead74.xcon/FILE/index.html
+Author: Fivecenter
 Section: Tweaks
-Filename: ./Debs/wTabwData73.deb
-Size: 41,366
-MD5sum: 373b2b50897a4cc7e0e2aad1790e11e8
-Depends: mobilesubstrate
+Icon: http://itiaprepo.com/tiz38/test.png
+Size: 141886
+MD5sum: 92a31b35f303714e87d2c9906d1907f8
+Filename: ./Debs/com.ioslead74.xcon.deb
